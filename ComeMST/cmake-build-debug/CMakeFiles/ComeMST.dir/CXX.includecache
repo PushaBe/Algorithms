@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DFS.cpp
+DFS.h
+/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DFS.h
+vector
+-
+iostream
+-
+
+/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DFS.h
+vector
+-
+
