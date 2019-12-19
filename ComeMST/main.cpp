@@ -114,29 +114,35 @@ double calcQualityMetric(const int n_points) {
 }
 
 
-std::pair<double, double> calcAvgStdQualityMetric(int n_start, int n_end){
+std::pair<double, double> calcAvgStdQualityMetric(int n_points){
     std::vector<double> Qualities;
     double current_quality;
     double avgQuality = 0;
     double stdQuality = 0;
 
-    for (int i = n_start; i < n_end + 1; i++) {
-        current_quality = calcQualityMetric(i);
+    for (int i = 0; i < 20 + 1; i++) {
+        current_quality = calcQualityMetric(n_points);
         Qualities.push_back(current_quality);
         avgQuality += current_quality;
     }
 
-    avgQuality = avgQuality / static_cast<double>(n_end - n_start + 1);
-    for (int i = 0; i < n_end - n_start + 1; ++i) {
+    avgQuality = avgQuality / 21.;
+    for (int i = 0; i < 20; ++i) {
         stdQuality += pow(Qualities[i] - avgQuality, 2);
     }
-    stdQuality = std::sqrt(stdQuality / static_cast<double>(n_end - n_start + 1));
-    std::cout << "Average Quality:" << avgQuality << std::endl;
-    std::cout << "Standard Deviation of Quality:" << stdQuality << std::endl;
+    stdQuality = std::sqrt(stdQuality / 21.);
+//    std::cout << "Average Quality:" << avgQuality << std::endl;
+//    std::cout << "Standard Deviation of Quality:" << stdQuality << std::endl;
     return {avgQuality, stdQuality};
 }
 
 int main() {
-    std::pair<double, double> results = calcAvgStdQualityMetric(2, 10);
+    std::vector<double> AvgQualities;
+    std::vector<double> StdQualities;
+    std::pair<double, double> results;
+    for (int i = 2; i < 11; i++) {
+        results = calcAvgStdQualityMetric(i);
+        std::cout << "N:" << i << " Avg:" << results.first << " Std:" << results.second << std::endl;
+    }
     return 0;
 }
