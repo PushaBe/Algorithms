@@ -1,6 +1,4 @@
-#include "DFS.h"
 #include <vector>
-#include <iostream>
 typedef std::vector<std::vector<double>> Graph;
 
 std::vector<bool> visited;

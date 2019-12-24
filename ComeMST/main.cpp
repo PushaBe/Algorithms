@@ -67,7 +67,7 @@ double calcWeightTsp(const Graph& g, const Graph& mst) {
     for (int i = 0; i < static_cast<int>(visited_seq.size()) - 1; ++i) {
         weightTSP = weightTSP + g[visited_seq[i]][visited_seq[i+1]];
     }
-    weightTSP += g[visited_seq[-1]][visited_seq[0]];
+    weightTSP += g[visited_seq.back()][visited_seq[0]];
 //    std::cout << weightTSP << std::endl;
     return weightTSP;
 }
@@ -109,7 +109,7 @@ double calcQualityMetric(const int n_points) {
     double weightTSP = calcWeightTsp(initialGraph, mst);
     double weightBest = calcWeightBest(initialGraph, 0);
     double quality = weightTSP / weightBest;
-    std::cout << "Quality:" << quality << std::endl;
+//    std::cout << "Quality:" << quality << std::endl;
     return quality;
 }
 

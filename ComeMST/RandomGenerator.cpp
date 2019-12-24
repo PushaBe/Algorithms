@@ -1,11 +1,7 @@
-//
-// Created by xiaomi on 17.12.2019.
-//
-
 #include <vector>
 #include "RandomGenerator.h"
 #include <random>
-#include <math.h>
+#include <cmath>
 typedef std::pair<double, double> Point;
 typedef std::pair<std::pair<int, int>, double> Edge;
 

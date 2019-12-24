@@ -11,7 +11,7 @@ class RandomGraphGenerator {
 public:
     Point GeneratePoint();
     std::vector<Point> GeneratePoints();
-    Edge GenerateEdge(Point point1, Point point2, int i, int j);
+    static Edge GenerateEdge(Point point1, Point point2, int i, int j);
     std::vector<Edge> GenerateGraph();
     int n_points;
     explicit RandomGraphGenerator(double s, double e, int n_points);

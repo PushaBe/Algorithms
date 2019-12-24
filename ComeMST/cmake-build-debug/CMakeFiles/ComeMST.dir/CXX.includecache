@@ -6,15 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DFS.cpp
-DFS.h
-/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DFS.h
+/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/DFS.h
 vector
--
-iostream
 -
 
-/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DFS.h
+/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/MSTKruskal.h
 vector
+-
+
+/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/RandomGenerator.h
+
+/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/main.cpp
+iostream
+-
+vector
+-
+MSTKruskal.h
+/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/MSTKruskal.h
+RandomGenerator.h
+/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/RandomGenerator.h
+DFS.h
+/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/DFS.h
+climits
+-
+algorithm
+-
+cmath
 -
 

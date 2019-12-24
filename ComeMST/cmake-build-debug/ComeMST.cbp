@@ -8,106 +8,104 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug"/>
+				<Option working_dir="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug"/>
+				<Option working_dir="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ComeMST">
-				<Option output="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/ComeMST.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 ComeMST"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ComeMST/fast">
-				<Option output="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/ComeMST.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 ComeMST/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug"/>
+				<Option working_dir="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ComeMST">
+				<Option output="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/ComeMST" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 ComeMST"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ComeMST/fast">
+				<Option output="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/ComeMST" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 ComeMST/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DFS.cpp">
+		<Unit filename="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/DFS.cpp">
 			<Option target="ComeMST"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DFS.h">
+		<Unit filename="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/DFS.h">
 			<Option target="ComeMST"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DSU.cpp">
+		<Unit filename="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/DSU.cpp">
 			<Option target="ComeMST"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DSU.h">
+		<Unit filename="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/DSU.h">
 			<Option target="ComeMST"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/MSTKruskal.cpp">
+		<Unit filename="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/MSTKruskal.cpp">
 			<Option target="ComeMST"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/MSTKruskal.h">
+		<Unit filename="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/MSTKruskal.h">
 			<Option target="ComeMST"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/RandomGenerator.cpp">
+		<Unit filename="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/RandomGenerator.cpp">
 			<Option target="ComeMST"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/RandomGenerator.h">
+		<Unit filename="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/RandomGenerator.h">
 			<Option target="ComeMST"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/main.cpp">
+		<Unit filename="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/main.cpp">
 			<Option target="ComeMST"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/CMakeLists.txt">
+		<Unit filename="/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

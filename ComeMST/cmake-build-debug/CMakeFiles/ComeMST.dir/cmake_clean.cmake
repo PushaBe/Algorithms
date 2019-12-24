@@ -4,9 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ComeMST.dir/MSTKruskal.cpp.o"
   "CMakeFiles/ComeMST.dir/RandomGenerator.cpp.o"
   "CMakeFiles/ComeMST.dir/main.cpp.o"
-  "ComeMST.exe"
+  "ComeMST"
   "ComeMST.pdb"
-  "libComeMST.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

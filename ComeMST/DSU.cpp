@@ -1,9 +1,5 @@
-//
-// Created by xiaomi on 17.12.2019.
-//
-
 #include "DSU.h"
-#include <assert.h>
+#include <cassert>
 #include <iostream>
 
 DSU::DSU(size_t size) :

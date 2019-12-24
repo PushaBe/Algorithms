@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/xiaom/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/xiaom/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/xiaom/CLionProjects/ComeMST
+CMAKE_SOURCE_DIR = /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ComeMST.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/ComeMST.dir/flags.make
 
 CMakeFiles/ComeMST.dir/main.cpp.o: CMakeFiles/ComeMST.dir/flags.make
 CMakeFiles/ComeMST.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ComeMST.dir/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComeMST.dir/main.cpp.o -c /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ComeMST.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComeMST.dir/main.cpp.o -c /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/main.cpp
 
 CMakeFiles/ComeMST.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComeMST.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/main.cpp > CMakeFiles/ComeMST.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/main.cpp > CMakeFiles/ComeMST.dir/main.cpp.i
 
 CMakeFiles/ComeMST.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComeMST.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/main.cpp -o CMakeFiles/ComeMST.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/main.cpp -o CMakeFiles/ComeMST.dir/main.cpp.s
 
 CMakeFiles/ComeMST.dir/RandomGenerator.cpp.o: CMakeFiles/ComeMST.dir/flags.make
 CMakeFiles/ComeMST.dir/RandomGenerator.cpp.o: ../RandomGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ComeMST.dir/RandomGenerator.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComeMST.dir/RandomGenerator.cpp.o -c /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/RandomGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ComeMST.dir/RandomGenerator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComeMST.dir/RandomGenerator.cpp.o -c /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/RandomGenerator.cpp
 
 CMakeFiles/ComeMST.dir/RandomGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComeMST.dir/RandomGenerator.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/RandomGenerator.cpp > CMakeFiles/ComeMST.dir/RandomGenerator.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/RandomGenerator.cpp > CMakeFiles/ComeMST.dir/RandomGenerator.cpp.i
 
 CMakeFiles/ComeMST.dir/RandomGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComeMST.dir/RandomGenerator.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/RandomGenerator.cpp -o CMakeFiles/ComeMST.dir/RandomGenerator.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/RandomGenerator.cpp -o CMakeFiles/ComeMST.dir/RandomGenerator.cpp.s
 
 CMakeFiles/ComeMST.dir/MSTKruskal.cpp.o: CMakeFiles/ComeMST.dir/flags.make
 CMakeFiles/ComeMST.dir/MSTKruskal.cpp.o: ../MSTKruskal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ComeMST.dir/MSTKruskal.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComeMST.dir/MSTKruskal.cpp.o -c /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/MSTKruskal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ComeMST.dir/MSTKruskal.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComeMST.dir/MSTKruskal.cpp.o -c /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/MSTKruskal.cpp
 
 CMakeFiles/ComeMST.dir/MSTKruskal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComeMST.dir/MSTKruskal.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/MSTKruskal.cpp > CMakeFiles/ComeMST.dir/MSTKruskal.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/MSTKruskal.cpp > CMakeFiles/ComeMST.dir/MSTKruskal.cpp.i
 
 CMakeFiles/ComeMST.dir/MSTKruskal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComeMST.dir/MSTKruskal.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/MSTKruskal.cpp -o CMakeFiles/ComeMST.dir/MSTKruskal.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/MSTKruskal.cpp -o CMakeFiles/ComeMST.dir/MSTKruskal.cpp.s
 
 CMakeFiles/ComeMST.dir/DSU.cpp.o: CMakeFiles/ComeMST.dir/flags.make
 CMakeFiles/ComeMST.dir/DSU.cpp.o: ../DSU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ComeMST.dir/DSU.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComeMST.dir/DSU.cpp.o -c /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DSU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ComeMST.dir/DSU.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComeMST.dir/DSU.cpp.o -c /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/DSU.cpp
 
 CMakeFiles/ComeMST.dir/DSU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComeMST.dir/DSU.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DSU.cpp > CMakeFiles/ComeMST.dir/DSU.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/DSU.cpp > CMakeFiles/ComeMST.dir/DSU.cpp.i
 
 CMakeFiles/ComeMST.dir/DSU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComeMST.dir/DSU.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DSU.cpp -o CMakeFiles/ComeMST.dir/DSU.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/DSU.cpp -o CMakeFiles/ComeMST.dir/DSU.cpp.s
 
 CMakeFiles/ComeMST.dir/DFS.cpp.o: CMakeFiles/ComeMST.dir/flags.make
 CMakeFiles/ComeMST.dir/DFS.cpp.o: ../DFS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ComeMST.dir/DFS.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComeMST.dir/DFS.cpp.o -c /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DFS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ComeMST.dir/DFS.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComeMST.dir/DFS.cpp.o -c /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/DFS.cpp
 
 CMakeFiles/ComeMST.dir/DFS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComeMST.dir/DFS.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DFS.cpp > CMakeFiles/ComeMST.dir/DFS.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/DFS.cpp > CMakeFiles/ComeMST.dir/DFS.cpp.i
 
 CMakeFiles/ComeMST.dir/DFS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComeMST.dir/DFS.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/DFS.cpp -o CMakeFiles/ComeMST.dir/DFS.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/DFS.cpp -o CMakeFiles/ComeMST.dir/DFS.cpp.s
 
 # Object files for target ComeMST
 ComeMST_OBJECTS = \
@@ -133,18 +133,18 @@ ComeMST_OBJECTS = \
 # External object files for target ComeMST
 ComeMST_EXTERNAL_OBJECTS =
 
-ComeMST.exe: CMakeFiles/ComeMST.dir/main.cpp.o
-ComeMST.exe: CMakeFiles/ComeMST.dir/RandomGenerator.cpp.o
-ComeMST.exe: CMakeFiles/ComeMST.dir/MSTKruskal.cpp.o
-ComeMST.exe: CMakeFiles/ComeMST.dir/DSU.cpp.o
-ComeMST.exe: CMakeFiles/ComeMST.dir/DFS.cpp.o
-ComeMST.exe: CMakeFiles/ComeMST.dir/build.make
-ComeMST.exe: CMakeFiles/ComeMST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ComeMST.exe"
+ComeMST: CMakeFiles/ComeMST.dir/main.cpp.o
+ComeMST: CMakeFiles/ComeMST.dir/RandomGenerator.cpp.o
+ComeMST: CMakeFiles/ComeMST.dir/MSTKruskal.cpp.o
+ComeMST: CMakeFiles/ComeMST.dir/DSU.cpp.o
+ComeMST: CMakeFiles/ComeMST.dir/DFS.cpp.o
+ComeMST: CMakeFiles/ComeMST.dir/build.make
+ComeMST: CMakeFiles/ComeMST.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ComeMST"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ComeMST.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/ComeMST.dir/build: ComeMST.exe
+CMakeFiles/ComeMST.dir/build: ComeMST
 
 .PHONY : CMakeFiles/ComeMST.dir/build
 
@@ -153,6 +153,6 @@ CMakeFiles/ComeMST.dir/clean:
 .PHONY : CMakeFiles/ComeMST.dir/clean
 
 CMakeFiles/ComeMST.dir/depend:
-	cd /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/xiaom/CLionProjects/ComeMST /cygdrive/c/Users/xiaom/CLionProjects/ComeMST /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug /cygdrive/c/Users/xiaom/CLionProjects/ComeMST/cmake-build-debug/CMakeFiles/ComeMST.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug /Users/pavelburtovoy/CLionProjects/ComeMST/ComeMST/cmake-build-debug/CMakeFiles/ComeMST.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ComeMST.dir/depend
 
