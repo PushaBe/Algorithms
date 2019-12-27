@@ -62,12 +62,16 @@ void printGraphWeights(Graph g) {
 }
 
 double calcWeightTsp(const Graph& g, const Graph& mst) {
-    std::vector<int> visited_seq = Maindfs(mst);
+    std::vector<int> visited_seq = DFS(mst, mst.size());
     double weightTSP = 0;
     for (int i = 0; i < static_cast<int>(visited_seq.size()) - 1; ++i) {
         weightTSP = weightTSP + g[visited_seq[i]][visited_seq[i+1]];
     }
     weightTSP += g[visited_seq.back()][visited_seq[0]];
+//    for (auto x: visited_seq) {
+//        std::cout << x << "-";
+//    }
+//    std::cout << std::endl;
 //    std::cout << weightTSP << std::endl;
     return weightTSP;
 }
@@ -99,7 +103,7 @@ double calcWeightBest(const Graph& g, const int s) {
 }
 
 double calcQualityMetric(const int n_points) {
-    RandomGraphGenerator g(0., 1., n_points);
+    RandomGraphGenerator g(-1., 1., n_points);
     std::vector<Edge> graph = g.GenerateGraph();
     Graph initialGraph = reshapeGraph(graph, g.n_points);
     Graph mst = mstKruskal(graph, n_points);
@@ -127,7 +131,7 @@ std::pair<double, double> calcAvgStdQualityMetric(int n_points){
     }
 
     avgQuality = avgQuality / 21.;
-    for (int i = 0; i < 20; ++i) {
+    for (int i = 0; i < 21; ++i) {
         stdQuality += pow(Qualities[i] - avgQuality, 2);
     }
     stdQuality = std::sqrt(stdQuality / 21.);
@@ -144,5 +148,6 @@ int main() {
         results = calcAvgStdQualityMetric(i);
         std::cout << "N:" << i << " Avg:" << results.first << " Std:" << results.second << std::endl;
     }
+//    calcAvgStdQualityMetric(5);
     return 0;
 }

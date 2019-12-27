@@ -1,32 +1,27 @@
 #include <vector>
+#include <iostream>
 typedef std::vector<std::vector<double>> Graph;
-
-std::vector<bool> visited;
-std::vector<int> visited_seq;
-void dfs(const int u, const Graph& g) {
+void DFSUtil(int u, Graph adj, std::vector<bool>& visited, std::vector<int>& visited_seq) {
     visited[u] = true;
-    for (int v = 0; v < static_cast<int>(g.size()); ++v) {
-        if (!visited[v]) {
-            visited_seq.push_back(v);
-            dfs(v, g);
+    visited_seq.push_back(u);
+//    std::cout << u << " ";
+    for (int i = 0; i < adj[u].size(); i++) {
+        if (adj[u][i] == -1) continue;
+        if (!visited[i]) {
+            DFSUtil(i, adj, visited, visited_seq);
         }
     }
 }
 
-std::vector<int> Maindfs(const Graph& g) {
-    visited_seq.clear();
-    visited.assign(g.size(), false);
-    visited_seq.push_back(0);
-    for (int i = 0; i < static_cast<int>(g.size()); i++) {
-        if (!visited[i]) {
-            dfs(i, g);
-        }
+std::vector<int> DFS(const Graph& adj, int V) {
+    std::vector<int> visited_seq;
+//    visited_seq.push_back(0);
+    std::vector<bool> visited(V, false);
+    for (int u = 0; u < V; u++) {
+//        std::cout << std::endl;
+        if (!visited[u])
+            DFSUtil(u, adj, visited, visited_seq);
     }
     visited_seq.push_back(0);
-//    std::cout << "visited_seq:";
-//    for (int i = 0; i < static_cast<int>(visited_seq.size()); ++i) {
-//        std::cout << visited_seq[i] << "-";
-//    }
-//    std::cout << std::endl;
     return visited_seq;
 }

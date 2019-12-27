@@ -50,7 +50,7 @@ std::vector<Edge> RandomGraphGenerator::GenerateGraph() {
     Edge edge;
     std::vector<Point> points = GeneratePoints();
     for (int i = 0; i < n_points; ++i) {
-        for (int j = 0; j < n_points - 1; ++j) {
+        for (int j = 0; j < n_points; ++j) {
             if (i != j) {
                 edge = GenerateEdge(points[i], points[j], i, j);
                 g.push_back(edge);

@@ -1,7 +1,3 @@
-//
-// Created by xiaomi on 17.12.2019.
-//
-
 #ifndef COMEMST_DSU_H
 #define COMEMST_DSU_H
 

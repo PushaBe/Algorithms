@@ -8,7 +8,6 @@ CMakeFiles/ComeMST.dir/DSU.cpp.o: ../DSU.h
 
 CMakeFiles/ComeMST.dir/MSTKruskal.cpp.o: ../DSU.h
 CMakeFiles/ComeMST.dir/MSTKruskal.cpp.o: ../MSTKruskal.cpp
-CMakeFiles/ComeMST.dir/MSTKruskal.cpp.o: ../MSTKruskal.h
 
 CMakeFiles/ComeMST.dir/RandomGenerator.cpp.o: ../RandomGenerator.cpp
 CMakeFiles/ComeMST.dir/RandomGenerator.cpp.o: ../RandomGenerator.h

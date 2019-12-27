@@ -4,8 +4,7 @@
 
 typedef std::vector<std::vector<double>> Graph;
 
-void dfs(int u, const Graph& g);
-std::vector<int> Maindfs(const Graph& g);
-
+void DFSUtil(int u, Graph adj, std::vector<bool>& visited, std::vector<int>& visited_seq);
+std::vector<int> DFS(const Graph& adj, int V);
 
 #endif //COMEMST_DFS_H

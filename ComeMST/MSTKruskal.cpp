@@ -1,21 +1,17 @@
-//
-// Created by xiaomi on 17.12.2019.
-//
-
-#include "MSTKruskal.h"
 #include "DSU.h"
 #include <algorithm>
-#include <iostream>
 #include <vector>
 typedef std::pair<double, double> Point;
 typedef std::pair<std::pair<int, int>, double> Edge;
-//typedef std::pair<std::vector<std::vector<std::pair<int, double>>>, double> mstWithWeight;
 typedef std::vector<std::vector<double>> Graph;
 
+bool compareByDistance(Edge a, Edge b) {
+    return a.second < b.second;
+}
 Graph mstKruskal(std::vector<Edge> graph_edges, int n_vertex) {
     double mst_weight = 0;
     Graph mst_graph(n_vertex, std::vector<double>(n_vertex, -1));
-    sort(graph_edges.begin(), graph_edges.end());
+    sort(graph_edges.begin(), graph_edges.end(), compareByDistance);
     DSU dsu(n_vertex);
     for (auto x: graph_edges) {
         int u = x.first.first;
