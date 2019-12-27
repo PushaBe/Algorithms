@@ -68,11 +68,6 @@ double calcWeightTsp(const Graph& g, const Graph& mst) {
         weightTSP = weightTSP + g[visited_seq[i]][visited_seq[i+1]];
     }
     weightTSP += g[visited_seq.back()][visited_seq[0]];
-//    for (auto x: visited_seq) {
-//        std::cout << x << "-";
-//    }
-//    std::cout << std::endl;
-//    std::cout << weightTSP << std::endl;
     return weightTSP;
 }
 
@@ -92,13 +87,6 @@ double calcWeightBest(const Graph& g, const int s) {
         current_pathweight += g[k][s];
         min_path = std::min(min_path, current_pathweight);
     } while (std::next_permutation(vertex.begin(), vertex.end()));
-//    std::cout << min_path << std::endl;
-//    std::cout << s << "-";
-//    for (auto i: vertex){
-//        std::cout << i << "-";
-//    }
-//    std::cout << s << "-";
-//    std::cout << std::endl;
     return min_path;
 }
 
@@ -107,13 +95,9 @@ double calcQualityMetric(const int n_points) {
     std::vector<Edge> graph = g.GenerateGraph();
     Graph initialGraph = reshapeGraph(graph, g.n_points);
     Graph mst = mstKruskal(graph, n_points);
-//    printGraph(initialGraph);
-//    printGraphWeights(initialGraph);
-//    printGraph(mst, true);
     double weightTSP = calcWeightTsp(initialGraph, mst);
     double weightBest = calcWeightBest(initialGraph, 0);
     double quality = weightTSP / weightBest;
-//    std::cout << "Quality:" << quality << std::endl;
     return quality;
 }
 
@@ -135,8 +119,6 @@ std::pair<double, double> calcAvgStdQualityMetric(int n_points){
         stdQuality += pow(Qualities[i] - avgQuality, 2);
     }
     stdQuality = std::sqrt(stdQuality / 21.);
-//    std::cout << "Average Quality:" << avgQuality << std::endl;
-//    std::cout << "Standard Deviation of Quality:" << stdQuality << std::endl;
     return {avgQuality, stdQuality};
 }
 
@@ -148,6 +130,5 @@ int main() {
         results = calcAvgStdQualityMetric(i);
         std::cout << "N:" << i << " Avg:" << results.first << " Std:" << results.second << std::endl;
     }
-//    calcAvgStdQualityMetric(5);
     return 0;
 }

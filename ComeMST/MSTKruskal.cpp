@@ -22,7 +22,6 @@ Graph mstKruskal(std::vector<Edge> graph_edges, int n_vertex) {
 
         if (set_u != set_v) {
             mst_weight += x.second;
-//            std::cout << u << " - " << v << std::endl;
             mst_graph[u][v] = x.second;
             mst_graph[v][u] = x.second;
             dsu.merge(set_u, set_v);

@@ -4,7 +4,6 @@
 #include <vector>
 typedef std::pair<double, double> Point;
 typedef std::pair<std::pair<int, int>, double> Edge;
-//typedef std::pair<std::vector<std::vector<std::pair<int, double>>>, double> mstWithWeight;
 typedef std::vector<std::vector<double>> Graph;
 
 Graph mstKruskal(std::vector<Edge> graph_edges, int n_vertex);
